@@ -1,0 +1,3 @@
+subgroup,true_negative,false_positive,false_negative,true_positive,false_positive_rate,false_negative_rate
+U.S.-based,98,137,69,553,0.5829787234042553,0.11093247588424437
+Non-U.S.-based,95,30,70,89,0.24,0.44025157232704404

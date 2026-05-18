@@ -1,0 +1,20 @@
+feature_group,feature
+Funding scale,funding_total_usd
+Funding scale,seed
+Funding scale,venture
+Funding scale,angel
+Funding scale,debt_financing
+Funding scale,private_equity
+Funding scale,undisclosed
+Funding dynamics,founded_year
+Funding dynamics,funding_rounds
+Funding dynamics,funding_duration_days
+Funding dynamics,avg_days_between_rounds
+Funding dynamics,is_single_round
+Stage structure,has_round_a
+Stage structure,has_round_b
+Stage structure,has_round_c
+Stage structure,has_round_d
+Stage structure,has_round_e
+Geography,country_code
+Industry,market
