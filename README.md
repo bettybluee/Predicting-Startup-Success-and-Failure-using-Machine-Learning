@@ -36,6 +36,7 @@ Seaborn 0.13.2
 SciPy 1.17.0
 Joblib 1.5.3
 IPython 9.7.0
+```
 
 Package requirements are listed in:
 
