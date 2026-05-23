@@ -1,2 +1,0 @@
-target_col,split_col,test_fraction,n_rows_original,n_rows_missing_split_col,n_rows_used_for_split,n_train,n_test,train_start_date,train_end_date,test_start_date,test_end_date,split_cutoff_date
-target,last_funding_at,0.2,5704,0,5704,4563,1141,1993-08-30,2012-01-13,2012-01-15,2014-12-01,2012-01-15
