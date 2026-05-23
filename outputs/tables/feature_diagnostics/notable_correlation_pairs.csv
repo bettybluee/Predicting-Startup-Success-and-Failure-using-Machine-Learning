@@ -1,4 +1,0 @@
-feature_1,feature_2,correlation,abs_correlation
-funding_rounds,funding_duration_days,0.81,0.81
-funding_duration_days,avg_days_between_rounds,0.79,0.79
-funding_rounds,is_single_round,-0.74,0.74

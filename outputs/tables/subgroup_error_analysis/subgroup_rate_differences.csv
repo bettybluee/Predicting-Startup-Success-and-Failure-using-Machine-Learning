@@ -1,3 +1,0 @@
-metric,us_based,non_us_based,absolute_difference,higher_subgroup
-false_positive_rate,0.5829787234042553,0.24,0.3429787234042553,U.S.-based
-false_negative_rate,0.11093247588424437,0.44025157232704404,0.32931909644279966,Non-U.S.-based

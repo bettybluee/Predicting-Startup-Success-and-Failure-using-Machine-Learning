@@ -1,6 +1,0 @@
-step,rows_before,rows_after,rows_removed,removed_percentage,retained_percentage,note
-Keep only acquired/closed observations and create binary target,54294,6295,47999,88.41,11.59,
-Remove observations where founded_at is later than first_funding_at,6295,5848,447,7.1,92.9,Removed 447 observations.
-Remove observations where first_funding_at is later than last_funding_at,5848,5848,0,0.0,100.0,Removed 0 observations.
-Apply first_funding_year >= 1990,5848,5845,3,0.05,99.95,Rows with missing first_funding_year before cutoff: 0; rows below cutoff before filtering: 3.
-Impute founded_year from first_funding_at and apply founded_year >= 1990,5845,5704,141,2.41,97.59,Rows below founded-year cutoff after imputation: 141.
