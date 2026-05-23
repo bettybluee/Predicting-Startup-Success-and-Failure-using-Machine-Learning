@@ -1,0 +1,31 @@
+{
+  "analysis": "SHAP feature importance for the selected XGBoost model",
+  "model_path": "/Users/bettykim/Desktop/Thesis code/outputs/models/model_comparison/xgboost_best_estimator.joblib",
+  "x_test_path": "/Users/bettykim/Desktop/Thesis code/data/interim/X_test_temporal.csv",
+  "y_test_path": "/Users/bettykim/Desktop/Thesis code/data/interim/y_test_temporal.csv",
+  "selected_features_path": "/Users/bettykim/Desktop/Thesis code/outputs/tables/model_comparison/model_comparison_selected_features.csv",
+  "n_holdout_observations": 1141,
+  "n_selected_raw_features": 19,
+  "n_encoded_features": 419,
+  "n_grouped_predictors": 19,
+  "positive_class": {
+    "label": "acquired",
+    "code": 1
+  },
+  "negative_class": {
+    "label": "closed",
+    "code": 0
+  },
+  "importance_measure_encoded": "mean absolute SHAP value at encoded feature level",
+  "importance_measure_grouped": "mean absolute value of SHAP contributions aggregated by original predictor",
+  "output_paths": {
+    "grouped_importance": "/Users/bettykim/Desktop/Thesis code/outputs/tables/feature_importance/grouped_shap_feature_importance.csv",
+    "grouped_top_predictors": "/Users/bettykim/Desktop/Thesis code/outputs/tables/feature_importance/grouped_shap_top_predictors.csv",
+    "encoded_importance": "/Users/bettykim/Desktop/Thesis code/outputs/tables/feature_importance/encoded_shap_feature_importance.csv",
+    "encoded_top_features": "/Users/bettykim/Desktop/Thesis code/outputs/tables/feature_importance/encoded_shap_top_features.csv",
+    "feature_mapping": "/Users/bettykim/Desktop/Thesis code/outputs/tables/feature_importance/encoded_to_original_feature_mapping.csv",
+    "grouped_bar_figure": "/Users/bettykim/Desktop/Thesis code/outputs/figures/feature_importance/grouped_shap_feature_importance.png",
+    "grouped_summary_figure": "/Users/bettykim/Desktop/Thesis code/outputs/figures/feature_importance/grouped_shap_summary_plot.png",
+    "encoded_bar_figure": "/Users/bettykim/Desktop/Thesis code/outputs/figures/feature_importance/encoded_shap_feature_importance.png"
+  }
+}

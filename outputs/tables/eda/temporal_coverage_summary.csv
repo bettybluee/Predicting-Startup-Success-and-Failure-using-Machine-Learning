@@ -1,0 +1,4 @@
+date_variable,non_missing_count,missing_count,min_date,max_date
+founded_at,4972,1323,1840-01-01,2014-07-01
+first_funding_at,6295,0,11-11-14,2014-12-01
+last_funding_at,6295,0,1960-01-01,2014-12-01
