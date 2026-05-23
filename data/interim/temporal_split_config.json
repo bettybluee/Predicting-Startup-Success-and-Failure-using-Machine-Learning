@@ -1,0 +1,16 @@
+{
+  "input_path": "/Users/bettykim/Desktop/Thesis code/data/processed/startup_preprocessed_unsplit.csv",
+  "target_col": "target",
+  "split_col": "last_funding_at",
+  "test_fraction": 0.2,
+  "ordering": "ascending by last_funding_at, then original row index",
+  "outputs": {
+    "train": "/Users/bettykim/Desktop/Thesis code/data/interim/train_temporal.csv",
+    "test": "/Users/bettykim/Desktop/Thesis code/data/interim/test_temporal.csv",
+    "X_train": "/Users/bettykim/Desktop/Thesis code/data/interim/X_train_temporal.csv",
+    "X_test": "/Users/bettykim/Desktop/Thesis code/data/interim/X_test_temporal.csv",
+    "y_train": "/Users/bettykim/Desktop/Thesis code/data/interim/y_train_temporal.csv",
+    "y_test": "/Users/bettykim/Desktop/Thesis code/data/interim/y_test_temporal.csv",
+    "summary": "/Users/bettykim/Desktop/Thesis code/data/interim/temporal_split_summary.csv"
+  }
+}
